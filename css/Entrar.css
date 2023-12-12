@@ -1,3 +1,63 @@
 
 /* Importando icones do bootstrap 5 */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+/* Corpo da página */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+/* Cabeçalho */
+header {
+    align-items: center;
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Menu */
+.menu {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+}
+
+
+.menu ul {
+    border: solid;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.menu li a {
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+}
+
+/* Logo da empresa */
+.logo {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+}
