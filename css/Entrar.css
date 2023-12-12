@@ -4,9 +4,14 @@
 
 /* Corpo da página */
 body {
+    display: flex;
+    flex-direction: column;
+    
     padding: 0;
     margin: 0;
     background-color: black;
+    
+    height: 98vh;
 }
 
 /* Cabeçalho */
@@ -60,4 +65,56 @@ header {
     padding: 0;
     margin: 0;
     width: 80%;
+}
+
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 100%;
+}
+
+.login-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-card h2 {
+    color: #000000;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.register-link {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
 }
