@@ -5,19 +5,20 @@
 /* Corpo da página */
 body {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     padding: 0;
     margin: 0;
-    background-color: black;
-    
+    background-color: black;    
     height: 98vh;
+    background-image: url('../img/Fundo-cadastrar.svg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 /* Cabeçalho */
 header {
     align-items: center;
-    border: solid white;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -32,7 +33,6 @@ header {
 
 
 .menu ul {
-    border: solid;
     color: white;
     padding: 0;
     margin: 0;
@@ -112,9 +112,9 @@ header {
     cursor: pointer;
 }
 
-.register-link {
+.Registrar-link {
     color: #000000;
     text-decoration: none;
     display: block;
-    margin-top: 10px;
+    margin-top: 50px;
 }
